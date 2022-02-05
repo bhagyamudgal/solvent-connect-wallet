@@ -6,7 +6,6 @@ import { PendingTransaction } from "@saberhq/solana-contrib";
 import { createInitMintInstructions } from "@saberhq/token-utils";
 import { useConnectedWallet, useSolana } from "@saberhq/use-solana";
 import { Keypair, LAMPORTS_PER_SOL } from "@solana/web3.js";
-import { lighten } from "polished";
 import { useCallback, useEffect, useState } from "react";
 import invariant from "tiny-invariant";
 
